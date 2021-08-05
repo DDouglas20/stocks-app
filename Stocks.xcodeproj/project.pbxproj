@@ -26,6 +26,9 @@
 		B7195FF026B4BF55009E44DF /* NewsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FEF26B4BF55009E44DF /* NewsHeaderView.swift */; };
 		B7195FF226B4D451009E44DF /* NewsStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FF126B4D451009E44DF /* NewsStory.swift */; };
 		B7195FF426B4E1CB009E44DF /* NewsStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FF326B4E1CB009E44DF /* NewsStoryTableViewCell.swift */; };
+		B7195FF626B8B55A009E44DF /* MarketDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FF526B8B55A009E44DF /* MarketDataResponse.swift */; };
+		B7195FF826BB6F22009E44DF /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FF726BB6F22009E44DF /* WatchListTableViewCell.swift */; };
+		B7195FFA26BB72BA009E44DF /* StockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7195FF926BB72BA009E44DF /* StockChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		B7195FEF26B4BF55009E44DF /* NewsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeaderView.swift; sourceTree = "<group>"; };
 		B7195FF126B4D451009E44DF /* NewsStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStory.swift; sourceTree = "<group>"; };
 		B7195FF326B4E1CB009E44DF /* NewsStoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoryTableViewCell.swift; sourceTree = "<group>"; };
+		B7195FF526B8B55A009E44DF /* MarketDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataResponse.swift; sourceTree = "<group>"; };
+		B7195FF726BB6F22009E44DF /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
+		B7195FF926BB72BA009E44DF /* StockChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartView.swift; sourceTree = "<group>"; };
 		C880FCC5BB60E4B7799ACD73 /* Pods-Stocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocks.release.xcconfig"; path = "Target Support Files/Pods-Stocks/Pods-Stocks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +116,7 @@
 			children = (
 				B7195FEB26AFC3F0009E44DF /* SearchResponse.swift */,
 				B7195FF126B4D451009E44DF /* NewsStory.swift */,
+				B7195FF526B8B55A009E44DF /* MarketDataResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +128,8 @@
 				B7195FE926AF9819009E44DF /* SearchResultTableViewCell.swift */,
 				B7195FEF26B4BF55009E44DF /* NewsHeaderView.swift */,
 				B7195FF326B4E1CB009E44DF /* NewsStoryTableViewCell.swift */,
+				B7195FF726BB6F22009E44DF /* WatchListTableViewCell.swift */,
+				B7195FF926BB72BA009E44DF /* StockChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,12 +298,15 @@
 				B7195FF026B4BF55009E44DF /* NewsHeaderView.swift in Sources */,
 				B7195FF226B4D451009E44DF /* NewsStory.swift in Sources */,
 				B7195FF426B4E1CB009E44DF /* NewsStoryTableViewCell.swift in Sources */,
+				B7195FFA26BB72BA009E44DF /* StockChartView.swift in Sources */,
 				B7195FE826A10F4D009E44DF /* Extensions.swift in Sources */,
 				B7195FE2269FBEF3009E44DF /* APICaller.swift in Sources */,
 				B7195FEC26AFC3F0009E44DF /* SearchResponse.swift in Sources */,
 				B7195FC3269FBC0A009E44DF /* AppDelegate.swift in Sources */,
 				B7195FC5269FBC0A009E44DF /* SceneDelegate.swift in Sources */,
 				B7195FEE26B10398009E44DF /* PanelViewController.swift in Sources */,
+				B7195FF826BB6F22009E44DF /* WatchListTableViewCell.swift in Sources */,
+				B7195FF626B8B55A009E44DF /* MarketDataResponse.swift in Sources */,
 				B7195FDE269FBD2B009E44DF /* SearchResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
